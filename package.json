@@ -4,6 +4,7 @@
   "description": "A simple dropdown toggle module",
   "main": "dist/pls-dropdown.js",
   "module": "dist/pls-dropdown.js",
+  "types": "pls-dropdown.d.ts",
   "files": [
     "dist/pls-dropdown.js"
   ],
