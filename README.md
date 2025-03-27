@@ -1,4 +1,4 @@
-Here's a simple **`README.md`** for your dropdown module:
+# pls-dropdown - Simple Dropdown Module
 
 ````md
 # Dropdown Module
