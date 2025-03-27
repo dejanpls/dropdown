@@ -1,64 +1,61 @@
-# Template - Weback Template Repository
+Here's a simple **`README.md`** for your dropdown module:
 
-Intro
+````md
+# Dropdown Module
 
-[View the live website](https://dejanpls.github.io/[app-name])
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-
-## Introduction
-
-## Features
-
-- **Dynamic Content Loading:** Content for each section is loaded dynamically when the user clicks the corresponding button.
-- **Webpack Bundling:** Uses Webpack to bundle and optimize the website's assets for efficient loading.
-- **Clean and Responsive Design:** The website is designed to be visually appealing on desktop and mobile devices of any size.
-
-## Technologies Used
-
-- **HTML:** Structure of the website.
-- **CSS:** Styling of the website.
-- **JavaScript:** Dynamic content loading and interactivity.
-- **Webpack:** Module bundler.
-- **ESLInt:** Linter.
-- **Prettier:** Formatter.
+A simple JavaScript module for toggling dropdown menus.
 
 ## Installation
 
-1. Clone the repository:
+Install via npm:
 
-   ```bash
-   git clone [https://github.com/dejanpls/[app-name].git](https://www.google.com/search?q=https://github.com/dejanpls/[app-name].git)
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd [app-name]
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install  # or yarn install
-   ```
+```sh
+npm install dropdown-module
+```
+````
 
 ## Usage
 
-1. Start the development server:
+Import and initialize the dropdown:
 
-   ```bash
-   npm run start # or yarn start - this depends on your webpack configuration
-   ```
+```js
+import dropdown from 'dropdown-module';
 
-2. Open your browser and navigate to the provided URL (usually `http://localhost:8080`).
+// Toggle dropdown on click
+dropdown('menuToggle', 'menuList');
+```
 
-3. Interact with the buttons to view different sections of the web application.
+### HTML Example:
 
-## Project Structure
+```html
+<button id="menuToggle">Menu</button>
+<ul id="menuList" class="hidden">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+```
+
+### CSS Example:
+
+```css
+.hidden {
+  display: none;
+}
+```
+
+## Features
+
+✅ Lightweight and dependency-free  
+✅ Simple API for easy integration  
+✅ Works with any HTML structure
+
+## License
+
+MIT
+
+```
+
+This **README** is clean, concise, and provides enough details for someone to quickly use your package. Let me know if you want to customize it further! 🚀
+```
