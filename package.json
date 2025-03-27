@@ -1,4 +1,19 @@
 {
+  "name": "pls-dropdown",
+  "version": "1.0.0",
+  "description": "A simple dropdown toggle module",
+  "main": "dist/dropdown.js",
+  "module": "dist/dropdown.js",
+  "files": [
+    "dist/dropdown.js"
+  ],
+  "keywords": [
+    "dropdown",
+    "toggle",
+    "menu"
+  ],
+  "author": "dejanpls",
+  "license": "MIT",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "eslint": "^9.23.0",
