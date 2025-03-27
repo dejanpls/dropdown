@@ -8,7 +8,7 @@ module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
   output: {
-    filename: 'dropdown.js', // disable cache busting
+    filename: 'pls-dropdown.js', // disable cache busting
   },
   optimization: {
     minimize: true,

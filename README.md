@@ -1,25 +1,20 @@
 # pls-dropdown - Simple Dropdown Module
 
-````md
-# Dropdown Module
-
 A simple JavaScript module for toggling dropdown menus.
 
 ## Installation
 
-Install via npm:
-
 ```sh
-npm install dropdown-module
+Install via npm:
+npm install pls-dropdown
 ```
-````
 
 ## Usage
 
 Import and initialize the dropdown:
 
 ```js
-import dropdown from 'dropdown-module';
+import dropdown from 'pls-dropdown';
 
 // Toggle dropdown on click
 dropdown('menuToggle', 'menuList');
@@ -47,15 +42,10 @@ dropdown('menuToggle', 'menuList');
 
 ## Features
 
-✅ Lightweight and dependency-free  
-✅ Simple API for easy integration  
+✅ Lightweight and dependency-free
+✅ Simple API for easy integration
 ✅ Works with any HTML structure
 
 ## License
 
 MIT
-
-```
-
-This **README** is clean, concise, and provides enough details for someone to quickly use your package. Let me know if you want to customize it further! 🚀
-```

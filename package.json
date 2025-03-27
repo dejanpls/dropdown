@@ -2,10 +2,10 @@
   "name": "pls-dropdown",
   "version": "1.0.0",
   "description": "A simple dropdown toggle module",
-  "main": "dist/dropdown.js",
-  "module": "dist/dropdown.js",
+  "main": "dist/pls-dropdown.js",
+  "module": "dist/pls-dropdown.js",
   "files": [
-    "dist/dropdown.js"
+    "dist/pls-dropdown.js"
   ],
   "keywords": [
     "dropdown",
