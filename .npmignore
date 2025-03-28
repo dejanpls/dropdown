@@ -1,6 +1,8 @@
-src/
-webpack.prod.js
-node_modules
-dist/*.map
-dist/*.html
-dist/*.css
+src/              # Exclude source code
+webpack.*.js      # Exclude Webpack configs
+node_modules/     # Exclude dependencies
+package-lock.json # Exclude lock file
+
+# dev config files
+.prettierrc        # Formatting configuration
+.eslintrc.json     # Linting configuration
